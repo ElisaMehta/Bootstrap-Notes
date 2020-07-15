@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Containers and Grid System</title>
+        <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        
+</head>
+<body>
+    <div class="container p-3 my-3 bg-info text-white">
+        <h1>Containers and Grid System</h1>  
+    </div>
+    <div class="container">
+        <h1>Responsive Containers</h1>
+        <p>Resize the browser window to see the effect.</p>
+    </div>
+      
+    <div class="container-sm border">.container-sm</div>
+    <div class="container-md mt-3 border">.container-md</div>
+    <div class="container-lg mt-3 border">.container-lg</div>
+    <div class="container-xl mt-3 border">.container-xl</div>
+    <hr>
+    <div class="container">
+        <h1>Grid System</h1> 
+        <blockquote>
+            <p>Bootstrap's grid system is built with flexbox and allows up to 12 columns across the page.</p>
+            <p>If you do not want to use all 12 columns individually, you can group the columns together to create wider columns:</p>
+            <p>The grid system is responsive, and the columns will re-arrange automatically depending on the screen size.</p>
+            <p>Make sure that the sum adds up to 12 or fewer (it is not required that you use all 12 available columns).</p>
+            <footer class="blockquote-footer">From w3schools website</footer>
+        </blockquote>
+        <hr>
+        <h4>Grid Classes</h4>
+        <p>The Bootstrap 4 grid system has five classes</p>
+        <ul>
+            <li>
+                <code class="w3-codespan">.col-</code>
+                " (extra small devices - screen width less than 576px)"
+            </li>
+            <li>
+                <code class="w3-codespan">.col-sm-</code>
+                " (small devices - screen width equal to or greater than 576px)"
+            </li>
+            <li>
+                <code class="w3-codespan">.col-md-</code>
+                " (medium devices - screen width equal to or greater than 768px)"
+            </li>
+            <li>
+                <code class="w3-codespan">.col-lg-</code>
+                " (large devices - screen width equal to or greater than 992px)"
+            </li>
+            <li>
+                <code class="w3-codespan">.col-</code>
+                " (xlarge devices - screen width equal to or greater than 1200px)"
+            </li>
+        </ul>
+    </div>
+    <div class="container">
+        <h4><mark> Control the column width, and how they should appear on different devices</mark></h4>
+        <hr>
+        <div class="row">
+            <div class="col-*-*">.col-*-*</div>
+            <div class="col-*-*">The first star (*) represents the responsiveness: sm, md, lg or xl, while the second star represents a number, which should add up to 12 for each row.</div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-4">.col-sm-4</div>
+            <div class="col-sm-8">.col-sm-8</div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-4">.col-sm-4</div>
+            <div class="col-sm-4">.col-sm-4</div>
+            <div class="col-sm-4">.col-sm-4</div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-3">.col-sm-3</div>
+            <div class="col-sm-3">.col-sm-3</div>
+            <div class="col-sm-3">.col-sm-3</div>
+            <div class="col-sm-3">.col-sm-3</div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm|md|1g|x1">oh</div>
+            <div class="col-sm|md|1g|x1">hi</div>
+            <div class="col-sm|md|1g|x1">there</div>
+            <div class="col-sm|md|1g|x1">: <-this is supposed to be responsive? <abbr title="Thank God It's Friday">TGIF</abbr></div>
+        </div>
+        <hr>
+        <h4><mark>Or let Bootstrap automatically handle the layout</mark></h4>
+        <hr>
+        <div class="row">
+            <div class="col">.col</div>
+            <div class="col">.col</div>
+            <div class="col">.col</div>
+        </div>
+    </div>
+    <hr>
+    <div class="container p-3 my-3 bg-info text-white">
+        <h5>Complete List of All Bootstrap 4 Classes</h5>
+        <a href="https://www.w3schools.com/bootstrap4/bootstrap_ref_all_classes.asp">w3schools</a>
+    </div>
+    <Button><a href="/">Main</a></Button>
+    
+    
+    
+</body>
+</html>
